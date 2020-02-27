@@ -20,6 +20,6 @@ class UserItem extends Component {
             </div>
         )
     }
-}
+};
 
 export default UserItem;
