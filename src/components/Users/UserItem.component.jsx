@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 class UserItem extends Component {
     state = {
         id: 'id',
