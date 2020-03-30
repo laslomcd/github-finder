@@ -2,7 +2,6 @@ import React from 'react'
 
 import UserItem from './UserItem.component';
 import Spinner from '../Spinner/Spinner.component';
-import PropTypes from 'prop-types';
 
 const Users = ({ users, loading }) => {
     if (loading) {
@@ -25,9 +24,5 @@ const userStyle = {
     gridGap: '1rem'
 }
 
-Users.propTypes = {
-    users: PropTypes.array.isRequired,
-    loading: PropTypes.bool.loading
-}
 
 export default Users;
